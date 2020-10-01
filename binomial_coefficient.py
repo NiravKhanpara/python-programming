@@ -5,7 +5,7 @@ Created on Mon Aug 24 15:47:56 2020
 @author: Nirav
 """
 import numpy as np
-print("============='nCr'=============")
+print("========'nCr'=========")
 
 n = int(input('Enter value of n'))
 r = int(input('Enter value of r'))
