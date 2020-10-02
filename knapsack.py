@@ -30,5 +30,5 @@ for i in range(n):
             k[i][j]=k[i-1][j]
         else:
             k[i][j] = max(k[i-1][j],p[i]+k[i-1][j-w[i]])
-
+#printing the maximum profit value
 print('maximum profit = %d'%k[n-1][c-1])            
