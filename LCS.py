@@ -39,5 +39,5 @@ while (s>0):
     else:
         j-=1
             
-
+# Printing the longest common subsequence
 print(lcs)
