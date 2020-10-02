@@ -18,5 +18,5 @@ for i in range(n+1):
             c[i][j]=1
         else:
             c[i][j] = c[i-1][j-1] + c[i-1][j]
-
+#printing the coefficient value
 print('Answer is : ',c[n][r])            
