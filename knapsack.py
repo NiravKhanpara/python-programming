@@ -19,7 +19,7 @@ for i in range(n):
     w.append(int(input()))
     p.append(int(input()))
 
-
+#loop
 for i in range(n):
     for j in range(c):
         if(i==0 and j<w[i]):
