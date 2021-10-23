@@ -7,8 +7,8 @@
 
 import numpy as np
 
-s1 = input('enter first string')
-s2 = input('enter second string')
+s1 = input('Enter the first string')
+s2 = input('Enter the second string')
 l1 = len(s1)
 l2 = len(s2)
 
