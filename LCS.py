@@ -11,7 +11,6 @@ s1 = input('Enter the first string')
 s2 = input('Enter the second string')
 l1 = len(s1)
 l2 = len(s2)
-
 c = np.zeros((l1+1,l2+1),int)
 
 for i in range(1,l1+1):
@@ -21,7 +20,6 @@ for i in range(1,l1+1):
         else:
             c[i][j] = max(c[i-1][j] , c[i][j-1])
             
-
 print(c)  
 
 s = c[l1][l2]
